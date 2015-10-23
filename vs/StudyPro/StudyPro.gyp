@@ -30,6 +30,7 @@
       'msvs_disabled_warnings': [4995],
       #'defines': [],
       'dependencies': [
+	     '<(DEPTH)/3rdlibs/boost/boost.gyp:*',
       ],
       'include_dirs': [
         '.',
@@ -41,6 +42,10 @@
 		'stdafx.h',
 		'stdafx.cpp',
         'study.cpp',
+		'RemoveableDeviceMonitor.h',
+		'RemoveableDeviceMonitor.cpp',
+		'OfflineSchSrvMgr.h',
+		'OfflineSchSrvMgr.cpp',
       ],
     },
   ]
