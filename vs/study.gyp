@@ -5,6 +5,7 @@
       'type': 'none',
       'dependencies': [
         'StudyPro/StudyPro.gyp:*',
+		'Another/Another.gyp:*',
       ],
       'sources': [
         'build/common.gypi',
